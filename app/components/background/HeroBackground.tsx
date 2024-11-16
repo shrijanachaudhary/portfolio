@@ -11,7 +11,7 @@ const HeroBackground: React.FC = () => {
         muted
         preload="auto"
       >
-        <source src="/wideo.mp4" type="video/mp4" />
+        <source src="/portfolio/wideo.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-bg-dark to-transparent" />
     </div>
