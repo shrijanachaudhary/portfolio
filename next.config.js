@@ -6,6 +6,7 @@ const outputDir = process.env.BRANCH === "dev" ? "dev" : ".next";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+
   distDir: outputDir,
   compiler: {
     reactRemoveProperties: isProduction,
@@ -28,7 +29,7 @@ const nextConfig = {
   productionBrowserSourceMaps: isProduction,
   swcMinify: !isProduction,
   images: {
-    domains: ["raw.githubusercontent.com"],
+    unoptimized: true,
   },
 };
 
