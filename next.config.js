@@ -5,6 +5,9 @@ const outputDir = process.env.BRANCH === "dev" ? "dev" : ".next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  eslint: {
+    dirs: ["pages", "components", "lib"],
+  },
   output: "export",
 
   distDir: outputDir,
