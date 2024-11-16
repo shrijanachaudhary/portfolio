@@ -1,5 +1,3 @@
-// @ts-check
-
 const isProduction = process.env.NODE_ENV === "production";
 const outputDir = process.env.BRANCH === "dev" ? "dev" : ".next";
 
@@ -9,7 +7,6 @@ const nextConfig = {
     dirs: ["pages", "components", "lib"],
   },
   output: "export",
-
   distDir: outputDir,
   compiler: {
     reactRemoveProperties: isProduction,
@@ -34,6 +31,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: "/portfolio",
 };
 
 module.exports = nextConfig;
