@@ -180,6 +180,33 @@
 import React from "react";
 import { BookIcon, BriefcaseIcon, SchoolIcon } from "lucide-react";
 
+export const links = [
+  {
+    name: "Home",
+    id: "home",
+  },
+  {
+    name: "About",
+    id: "about",
+  },
+  {
+    name: "Projects",
+    id: "projects",
+  },
+  {
+    name: "Experience",
+    id: "experience",
+  },
+  {
+    name: "Skills",
+    id: "skills",
+  },
+  {
+    name: "Contact",
+    id: "contact",
+  },
+] as const;
+
 export const experiencesData = [
   {
     title: "Primary School Teacher",
