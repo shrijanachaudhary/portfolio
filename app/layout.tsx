@@ -1,5 +1,6 @@
 import "./globals.css";
 import React, { ReactNode } from "react";
+import ScrollToTop from "./components/ScrollToTop";
 
 import { Inter } from "next/font/google";
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         className={`${syne.className} scroll-smooth scrollbar-none scrollbar-track-[#0E1016] scrollbar-thumb-[#212531]`}
       >
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );

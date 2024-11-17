@@ -17,6 +17,7 @@ import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 import Tools from "./sections/Tools.tsx";
 import Experience from "./sections/experience.tsx";
+import Header from "./components/header/Header.jsx";
 
 export default function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -58,7 +59,9 @@ export default function Home() {
       <PreLoader />
       <Blur />
       <Color />
+
       <ActiveSectionContextProvider>
+        <Header />
         <NavBar />
         <main className="flex flex-col items-center justify-center bg-black">
           <Hero />
