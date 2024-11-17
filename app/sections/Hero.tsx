@@ -48,7 +48,9 @@ const Hero = () => {
               </button>
             </a>
             <a
-              href="https://drive.google.com/"
+              href="/portfolio/cv/CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative overflow-hidden rounded-full border-2 border-black bg-white transition-transform hover:scale-105"
             >
               <button className="flex h-12 items-center justify-center gap-2 px-6 py-2 text-sm font-semibold text-black transition-all">
