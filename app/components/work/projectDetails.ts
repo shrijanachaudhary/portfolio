@@ -123,7 +123,7 @@ export const projects: ProjectProps[] = [
     techLinks: ["https://www.microsoft.com/excel"],
     github: "",
     demo: "https://censusnepal.cbs.gov.np/",
-    image: "/portfolio/images/Census.jpg",
+    image: "/images/Census.jpg",
     available: true,
   },
   {

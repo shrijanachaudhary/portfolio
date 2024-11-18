@@ -3,7 +3,7 @@
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/karthikmudunuri/portfolio-template
+   git clone https://github.com/shrijanachaudhary/portfolio
    ```
 
 2. Move to the cloned directory
@@ -24,8 +24,8 @@
    npm run dev
    ```
 
-5. Open the [Sections](https://github.com/karthikmudunuri/portfolio-template/tree/main/app/sections) folder and make changes
+5. Open the [Sections](https://github.com/shrijanachaudhary/portfolio/tree/main/app/sections) folder and make changes
 
 # License
 
-Licensed under the [MIT license](https://github.com/karthikmudunuri/portfolio-template/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/shrijanachaudhary/portfolio/blob/main/LICENSE.md).

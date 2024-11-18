@@ -11,7 +11,7 @@ const ContactBackground: React.FC = () => {
         muted
         preload="auto"
       >
-        <source src="/portfolio/contact.mp4" type="video/mp4" />
+        <source src="/contact.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 h-full w-full bg-gradient-to-t from-bg-dark to-transparent" />
       <div className="absolute inset-0 h-full w-full bg-gradient-to-b from-bg-dark to-transparent" />

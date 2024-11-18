@@ -48,7 +48,7 @@ const Hero = () => {
               </button>
             </a>
             <a
-              href="/portfolio/cv/CV.pdf"
+              href="/cv/CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative overflow-hidden rounded-full border-2 border-black bg-white transition-transform hover:scale-105"
