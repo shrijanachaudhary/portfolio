@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row sm:gap-1 md:gap-2">
           <AnimatedBody text={"Design & Deployed by"} className={"m-0 p-0"} />
           <Link
-            href="https://www.linkedin.com/in/shrijana-chaudhary/"
+            href="https://www.linkedin.com/in/sunil-chaudhary7281"
             target="_blank"
             aria-label="Eldora UI Github"
           >

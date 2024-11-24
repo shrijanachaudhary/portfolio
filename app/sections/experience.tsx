@@ -44,19 +44,30 @@ export default function Experience() {
                       : "0.4rem solid rgba(255, 255, 255, 0.5)",
                   display: theme === "dark" ? "none" : "block",
                 }}
-                date={item.date}
                 icon={item.icon}
                 iconStyle={{
                   background:
                     theme === "light" ? "#fff" : "rgba(255, 255, 255, 0.15)",
                   fontSize: "1.5rem",
+                  color: "#ffffff",
                   display: theme === "dark" ? "none" : "flex",
                 }}
               >
-                <h3 className="font-semibold capitalize">{item.title}</h3>
-                <p className="!mt-0 font-normal">{item.location}</p>
-                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                <h3 className="font-semibold capitalize text-gray-100 dark:text-white">
+                  {item.title}
+                </h3>
+                <p className="!mt-0 font-normal text-gray-300 dark:text-gray-400">
+                  {item.location}
+                </p>
+                <p className="!mt-1 !font-normal text-gray-500 dark:text-gray-500">
                   {item.description}
+                </p>
+                <p
+                  className={`mt-2 text-sm font-bold ${
+                    theme === "light" ? "text-gray-700" : "text-gray-400"
+                  }`}
+                >
+                  {item.date}
                 </p>
               </VerticalTimelineElement>
             </React.Fragment>
